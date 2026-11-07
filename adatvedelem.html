@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarmony – Adatvédelmi tájékoztató</title>
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="en" href="privacy.html">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Jarmony</a> · <a href="privacy.html" lang="en">English</a></nav>
+<h1>Adatvédelmi tájékoztató</h1>
+<p class="meta">Jarmony – Egyetértesz? (Android és iOS) · Hatályos: 2026. november 7.</p>
+
+<h2>1. Adatkezelő</h2>
+<p>Kirtyán János magánszemély. Kapcsolat: <a href="mailto:jandalf.dev@gmail.com">jandalf.dev@gmail.com</a></p>
+
+<h2>2. Milyen adatokat kezelünk</h2>
+<div class="table"><table>
+<thead><tr><th>Adat</th><th>Mikor</th><th>Cél</th><th>Jogalap</th></tr></thead>
+<tbody>
+<tr><td>E-mail-cím, felhasználói azonosító, bejelentkezési mód (Apple, Google, e-mail és jelszó)</td><td>Regisztrációkor, belépéskor</td><td>Fiók létrehozása és kezelése</td><td>Szerződés teljesítése (GDPR 6. cikk (1) b)</td></tr>
+<tr><td>Bejelentkezési munkamenet adatai: IP-cím, eszköz/kliens típusa, időpontok</td><td>Belépéskor és a munkamenet alatt</td><td>Biztonságos belépés, visszaélések megelőzése</td><td>Jogos érdek (6. cikk (1) f)</td></tr>
+<tr><td>Szavazatok: állítás, válasz, a megjelenített nyelv és szövegváltozat, időpont</td><td>Szavazáskor</td><td>Szavazás, összesítés, Leaderboard, a válasz módosítása</td><td>Szerződés teljesítése; a véleményre utaló adatoknál a szavazással megadott kifejezett hozzájárulás (9. cikk (2) a)</td></tr>
+<tr><td>Javasolt állítások szövege és állapota, a moderátor indoklása</td><td>Javaslatkor</td><td>Emberi ellenőrzés és jóváhagyás, publikálás</td><td>Szerződés teljesítése</td></tr>
+<tr><td>Jelentések (ok, megjegyzés)</td><td>Jelentéskor</td><td>Tartalom- és fordításminőség</td><td>Jogos érdek</td></tr>
+<tr><td>Beállítások: napi kérdés be/ki, időpont, időzóna, nyelv</td><td>Beállításkor</td><td>Az alkalmazás működése</td><td>Szerződés teljesítése</td></tr>
+<tr><td>Értesítési token, telepítésazonosító, platform, eszköznyelv, értesítési engedély állapota</td><td>Ha engedélyezed az értesítéseket</td><td>A napi kérdés kézbesítése</td><td>Hozzájárulás (a rendszer értesítési engedélye, bármikor visszavonható)</td></tr>
+</tbody>
+</table></div>
+<p>A szavazatok a véleményedet mutatják, és egyes állításoknál politikai, vallási vagy világnézeti meggyőződésre utalhatnak. A szavazás önkéntes, minden állításnál kihagyható. Egyéni szavazatot soha nem teszünk közzé: a nyilvános eredmények csak összesített számokat mutatnak, név és fiók nélkül.</p>
+<p>Nem használunk hirdetést, követést (tracking) vagy analitikai eszközt, nem kérünk helyadatot, névjegyeket, fényképeket vagy mikrofont, és nem adjuk el az adataidat.</p>
+<p>A készüléken tárolt adatok: a bejelentkezési tokeneket az Android Keystore, illetve az iOS Keychain védi. A még el nem küldött szavazatok és a tartalom gyorsítótára az alkalmazás saját, privát tárhelyén van. A jelszavadat az alkalmazás nem tárolja.</p>
+
+<h2>3. Adatfeldolgozók és adattovábbítás</h2>
+<ul>
+<li><strong>Supabase</strong> – adatbázis, hitelesítés, szerverfunkciók. Az adatok az EU-ban, Párizsban (AWS eu-west-3) vannak.</li>
+<li><strong>Google</strong> – Google-bejelentkezés és Firebase Cloud Messaging (értesítések kézbesítése mindkét platformon).</li>
+<li><strong>Apple</strong> – Sign in with Apple és Apple Push Notification service.</li>
+<li><strong>OpenAI</strong> – a publikálásra szánt állítások szövegének fordítása más nyelvekre. Csak az állítás szövege kerül átadásra, a szerzőre utaló adat nélkül; a szavazataidat, e-mail-címedet és fiókodat nem kapja meg. A kérések tárolását kikapcsoltuk.</li>
+</ul>
+<p>A Google, az Apple és az OpenAI az Egyesült Államokba is továbbíthat adatot. Ez az EU–USA adatvédelmi keretrendszer, illetve az Európai Bizottság általános szerződési feltételei alapján történik.</p>
+
+<h2>4. Megőrzés és törlés</h2>
+<p>A fiókhoz kötött adatokat a fiók törléséig őrizzük. Fióktörléskor azonnal törlődik:</p>
+<ul>
+<li>a bejelentkezési fiókod (e-mail-cím, bejelentkezési módok, munkamenetek);</li>
+<li>a beállításaid, eszközeid és értesítési tokenjeid;</li>
+<li>a szavazataid, amelyek az összesítésekből is kikerülnek.</li>
+</ul>
+<p>A javaslataid és jelentéseid szövege a fiókodtól leválasztva, név nélkül megmarad, így a már publikált állítások is. A fióktörlés tényét a véletlenszerű felhasználói azonosítóval (e-mail-cím nélkül) nyilvántartjuk, hogy a kérést ne dolgozzuk fel kétszer, és biztonsági naplóként.</p>
+
+<h2>5. Jogaid</h2>
+<p>Kérhetsz hozzáférést, helyesbítést, törlést, korlátozást és adathordozhatóságot, tiltakozhatsz az adatkezelés ellen, és bármikor visszavonhatod a hozzájárulásodat. A fiókod az alkalmazásban törölhető (Profil → Beállítások → Fiók törlése), vagy kérheted e-mailben is, lásd a <a href="fioktorles.html">fióktörlési oldalt</a>. A kérésekre legkésőbb 30 napon belül válaszolunk.</p>
+<p>Panaszt tehetsz a Nemzeti Adatvédelmi és Információszabadság Hatóságnál (NAIH, <a href="https://naih.hu">naih.hu</a>) vagy a lakóhelyed szerinti adatvédelmi hatóságnál.</p>
+
+<h2>6. Biztonság</h2>
+<p>Minden kapcsolat titkosított (HTTPS). Az adatbázishoz csak a szerveroldali funkciók férnek hozzá; az alkalmazásban nincs titkos szerverkulcs.</p>
+
+<h2>7. Korhatár</h2>
+<p>Az alkalmazás 16 éven felülieknek szól.</p>
+
+<h2>8. Változások</h2>
+<p>Ha ez a tájékoztató lényegesen megváltozik, az alkalmazásban vagy ezen az oldalon jelezzük. A hatályos dátum mindig az oldal tetején látható.</p>
+
+<h2>9. Kapcsolat</h2>
+<p><a href="mailto:jandalf.dev@gmail.com">jandalf.dev@gmail.com</a></p>
+</main>
+</body>
+</html>
